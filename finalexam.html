@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: black;
+            height: 200px;
+            color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #container{
+            display: flex;
+            justify-content: row;
+            
+        }
+        #container div{
+            height: 460px;
+            width: 450px;
+            background-color: burlywood;
+            margin: 20px;
+            border: solid 1px;
+            border-radius: 30px;  
+            padding: 30px;
+        }
+        .bor p{
+            display: flex;
+            justify-content: center;
+        }
+        .bold{
+            font-weight: bolder;
+        }
+        img{
+            width: 370px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            
+        }
+        .color{
+            color: aliceblue;
+        }
+        @media (max-width: 600px){
+            .bor{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>9B BUYANTUSHIG.T</h1>
+    <h2>Student profile</h2>
+    <div id="container">
+        <div class="bor">
+            <img src="pro.jpg" alt="">
+            <p class="bold"> Jane Doe </p>
+            <p> Assistant </p>
+            <p class="color"> You're beautiful and clam. I love you so much. Bla bla</p>
+        </div>
+            
+        <div class="bor">
+             <img src="pro.jpg" alt="">
+            <p class="bold"> Jane Doe </p>
+            <p> Assistant </p>
+            <p class="color"> You're beautiful and clam. I love you so much. Bla bla</p>
+        </div>
+            
+        <div class="bor">
+             <img src="pro.jpg" alt="">
+            <p class="bold"> Jane Doe </p>
+            <p> Assistant </p>
+            <p class="color"> You're beautiful and clam. I love you so much. Bla bla</p> 
+
+        </div>
+             
+        <div class="bor">
+             <img src="pro.jpg" alt="">
+            <p class="bold"> Jane Doe </p>
+            <p> Assistant </p>
+            <p class="color"> You're beautiful and clam. I love you so much. Bla bla</p>
+        </div>
+
+    </div>
+</body>
+</html>
